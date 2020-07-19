@@ -9,10 +9,10 @@ class UsersController < ApplicationController
 
     if user.valid?
       payload = { user_id: user.id }
-      token = JWT.encode(payload, 'hidden in the dark', 'HS256')
+      token = JWT.encode(payload, secret, 'HS256')
       render json: { token: token } # I want a token instead
 
-      render json: user
+      # render json: user
     else
       render json: { errors: user.errors.full_messages }, status: 422
     end
