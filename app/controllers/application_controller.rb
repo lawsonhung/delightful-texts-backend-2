@@ -9,7 +9,6 @@ class ApplicationController < ActionController::API
   # $ EDITOR='code --wait' rails credentials:edit
   def secret
     # Rails.application.credentials.jwt_secret
-
     ENV['jwt_secret']
   end
 
