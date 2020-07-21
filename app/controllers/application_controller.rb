@@ -10,7 +10,7 @@ class ApplicationController < ActionController::API
   def secret
     # Rails.application.credentials.jwt_secret
 
-    ENV[jwt_secret]
+    ENV['jwt_secret']
   end
 
   def decoded_token
