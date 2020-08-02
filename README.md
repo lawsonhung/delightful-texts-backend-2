@@ -1,3 +1,5 @@
+# Delightful Texts
+
 To start the server, run
 
 ## `rails s`
