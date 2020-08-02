@@ -1,27 +1,8 @@
 To start the server, run
+
 ## `rails s`
 
-# README
+This backend is for Delightful Texts. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It is built on Ruby version 2.6.1.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
